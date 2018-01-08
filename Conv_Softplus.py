@@ -10,7 +10,9 @@ import numpy as np
 import keras
 
 
-experiment_name = "CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5"
+# /home/user/Documents/ESGI/Machine_Learning/Cifar-10/logs
+
+experiment_name = "CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTMAX"
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
@@ -34,13 +36,9 @@ conv_model.add(Activation('relu'))
 conv_model.add(MaxPool2D((3, 3)))
 conv_model.add(Dropout(0.20))
 conv_model.add(Flatten())
-conv_model.add(Dense(10, activation='sigmoid'))
-# 10 tanh 28*28
-# meilleur resultat sur la fonction sigmoid puis sur la hard sigmoid et enfin la tanh
-conv_model.compile(sgd(lr=1.5, ), mse, metrics=[categorical_accuracy]) # LR=0.01
+conv_model.add(Dense(10, activation='softmax'))
 
-# linear_model.fit(x_train, y_train, batch_size=1000, epochs=10000,callbacks=[tb_callback], verbose=1,
-# validation_data=(x_test,y_test),)#batch_size=4096 (la ram utilisé)
-# --- epochs=10000 (le nombre de fois que l'on recommence les tests sur les elements d'entrainements)
-conv_model.fit(x_train, y_train, batch_size=8000, epochs=500, verbose=1, callbacks=[tb_callback], validation_data=(x_test, y_test), )
+conv_model.compile(sgd(lr=1, ), mse, metrics=[categorical_accuracy]) # LR=0.01
+
+conv_model.fit(x_train, y_train, batch_size=8000, epochs=2000, verbose=1, callbacks=[tb_callback], validation_data=(x_test, y_test), )
 
