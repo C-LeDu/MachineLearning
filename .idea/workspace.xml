@@ -2,16 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39604af3-afb1-406f-99f3-72501393a3ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conv_4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conv_4_optimizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conv_4_v2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conv_6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conv_Softplus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Conv_4_optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Conv_4_v2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_1_16_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515094244.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515180051.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTMAX/events.out.tfevents.1515194396.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTMAX/events.out.tfevents.1515196586.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTPLUS/events.out.tfevents.1515193592.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTPLUS/events.out.tfevents.1515193742.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTPLUS/events.out.tfevents.1515194357.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_DENSE_MAXPOL22_RELU_MAXPOOL_1_2_LR_1/events.out.tfevents.1515350625.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_DENSE_SOFTPLUS_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515199182.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_110_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515189542.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_16_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515188336.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515190655.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515190715.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515190950.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191002.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191082.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191162.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191236.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515192388.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515192410.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515192429.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515198772.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_6_DENSE_2_RELU_MAXPOOL_3_LR_0.5/events.out.tfevents.1515345802.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_6_DENSE_2_RELU_MAXPOOL_3_LR_0.5/events.out.tfevents.1515346371.user-VirtualBox" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_LINEAR_1_16_LR_0.5/events.out.tfevents.1515094339.user-VirtualBox" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Conv_4.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Conv_6.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Conv_Softplus.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/linear_Cifar10.py" afterPath="$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SP10_LR_1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Untitled.ipynb" afterPath="$PROJECT_DIR$/Untitled.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Untitled1.ipynb" afterPath="$PROJECT_DIR$/Untitled1.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,20 +51,23 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Cifar_10$Conv_4_v2.coverage" NAME="Conv_4_v2 Coverage Results" MODIFIED="1515350616860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Cifar_10$Conv_4_optimizer.coverage" NAME="Conv_4_optimizer Coverage Results" MODIFIED="1515394199699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cifar_10$CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0_5.coverage" NAME="CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0.5 Coverage Results" MODIFIED="1515875328999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Cifar_10$Conv_PreLU.coverage" NAME="Conv_PreLU Coverage Results" MODIFIED="1515196577521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Cifar_10$test.coverage" NAME="test Coverage Results" MODIFIED="1515180043521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cifar_10$linear_32_sigmoid.coverage" NAME="linear_32_sigmoid Coverage Results" MODIFIED="1515445545297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Cifar_10$linear_Cifar10.coverage" NAME="linear_Cifar10 Coverage Results" MODIFIED="1515094330964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Cifar_10$Conv_6.coverage" NAME="Conv_6 Coverage Results" MODIFIED="1515346407211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cifar_10$DONO.coverage" NAME="DONO Coverage Results" MODIFIED="1515613017196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Cifar_10$Conv_6.coverage" NAME="Conv_6 Coverage Results" MODIFIED="1515613226495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Cifar_10$Conv_4.coverage" NAME="Conv_4 Coverage Results" MODIFIED="1515199171947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Cifar_10$Conv_Optimizer.coverage" NAME="Conv_Optimizer Coverage Results" MODIFIED="1515198410352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            <state relative-caret-position="-418">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conv_Softplus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conv_Softplus.py">
+      <file leaf-file-name="CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="-436">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conv_4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conv_4.py">
+      <file leaf-file-name="CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conv_4_v2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conv_4_v2.py">
+      <file leaf-file-name="CIFAR10_LINEAR_1S32_S10_LR_0.5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+            <state relative-caret-position="-143">
+              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conv_6.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conv_6.py">
+      <file leaf-file-name="CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SP10_LR_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SP10_LR_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="97" />
+            <state relative-caret-position="-436">
+              <caret line="9" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -92,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conv_4_optimizer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conv_4_optimizer.py">
+      <file leaf-file-name="CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="198">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -104,11 +135,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linear_Cifar10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linear_Cifar10.py">
+      <file leaf-file-name="CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="100">
+              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CIFAR10_LINEAR_1S16_S10_LR_0.5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-216">
+              <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -138,14 +181,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/cifar.py" />
-        <option value="$PROJECT_DIR$/linear_Cifar10.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Conv_PreLU.py" />
         <option value="$PROJECT_DIR$/Conv_Optimizer.py" />
         <option value="$PROJECT_DIR$/Conv_4.py" />
-        <option value="$PROJECT_DIR$/Conv_6.py" />
         <option value="$PROJECT_DIR$/Conv_4_v2.py" />
         <option value="$PROJECT_DIR$/Conv_4_optimizer.py" />
+        <option value="$PROJECT_DIR$/linear_32_sigmoid.py" />
+        <option value="$PROJECT_DIR$/DONO.py" />
+        <option value="$PROJECT_DIR$/Conv_6.py" />
+        <option value="$PROJECT_DIR$/linear_Cifar10.py" />
+        <option value="$PROJECT_DIR$/Conv_Softplus.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/logs/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SP10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_0.5.py" />
+        <option value="$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py" />
       </list>
     </option>
   </component>
@@ -155,11 +211,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="726" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="2" />
+    <option name="y" value="14" />
+    <option name="width" value="1366" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,6 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,14 +251,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projet1/FunWithNIST.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -214,8 +275,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Conv_4_optimizer">
-    <configuration name="Conv_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0.5">
+    <configuration name="CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -228,12 +289,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Cifar-10" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conv_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Conv_4_optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_0.5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -246,25 +307,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Cifar-10" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conv_4_optimizer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Conv_4_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Cifar-10" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conv_4_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,7 +330,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Conv_Optimizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DONO" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -300,25 +343,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Cifar-10" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Conv_Optimizer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DONO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="linear_32_sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Cifar-10" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Conv_4" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Conv_Optimizer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Conv_6" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Conv_4_v2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Conv_4_optimizer" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Conv_6" />
+      <item index="1" class="java.lang.String" itemvalue="Python.linear_32_sigmoid" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DONO" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_0.5" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0.5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Conv_4_optimizer" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Conv_4_v2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_0.5" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_0.5" />
         <item index="2" class="java.lang.String" itemvalue="Python.Conv_6" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Conv_4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Conv_Optimizer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.DONO" />
+        <item index="4" class="java.lang.String" itemvalue="Python.linear_32_sigmoid" />
       </list>
     </recent_temporary>
   </component>
@@ -336,27 +397,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="766" extended-state="7" />
-    <editor active="true" />
+    <frame x="2" y="14" width="1366" height="678" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4531479" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880846" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4838946" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32880846" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -373,17 +434,59 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Conv_6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="70" />
+        <state relative-caret-position="864">
+          <caret line="57" column="50" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="57" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_4_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conv_Softplus.py">
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DONO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
@@ -393,7 +496,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conv_4.py">
+    <entry file="file://$PROJECT_DIR$/Conv_4_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_4_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_4_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_4_optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="42" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
@@ -403,7 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_Cifar10.py">
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
@@ -417,9 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -427,13 +662,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="45" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linear_Cifar10.py">
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
@@ -443,7 +676,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conv_4.py">
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
@@ -457,9 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -467,9 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,9 +706,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -487,9 +714,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,70 +735,127 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conv_Optimizer.py" />
-    <entry file="file://$PROJECT_DIR$/linear_Cifar10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conv_4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Untitled.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conv_4_v2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conv_Softplus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conv_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" column="97" lean-forward="true" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="97" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conv_4_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="50" column="45" lean-forward="true" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+        <state relative-caret-position="599">
+          <caret line="54" column="26" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conv_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DONO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="59" column="22" lean-forward="false" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="38" column="47" lean-forward="false" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SP10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="12" column="49" lean-forward="false" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
