@@ -5,7 +5,7 @@ from keras.activations import *
 from keras.losses import *
 from keras.datasets import *
 from keras.metrics import *
-#from keras.callbacks import *
+from keras.callbacks import *
 import numpy as np
 import keras
 
@@ -26,15 +26,18 @@ y_test = keras.utils.to_categorical(y_test)
 print(x_train.shape)
 print(y_train.shape)
 
-#tb_callback = TensorBoard("E:\\Documents\logs_deep_learning\CIFAR10" + experiment_name)
+tb_callback = TensorBoard("E:\\Documents\logs_deep_learning\CIFAR10" + experiment_name)
 
 model = Sequential()
-model.add(Conv2D(32,(3,3),padding='same',input_shape=(32,32,3)))
+model.add(Conv2D(16,(3,3),padding='same',input_shape=(32,32,3)))
 model.add(Activation('relu'))
-model.add(MaxPool2D((3,3)))
+model.add(MaxPool2D((2,2)))
+model.add(Dropout(0.20))
+
+
 model.add(Flatten())
 model.add(Dense(10, activation='sigmoid'))
-model.add(Dropout(0.15))
+
 
 model.compile(sgd(lr=1,),
                      mse, metrics=[categorical_accuracy])
@@ -44,5 +47,5 @@ model.fit(x_train, y_train,
                  batch_size=8192,
                  epochs=2000,
                  verbose=1,
-                 #callbacks=[tb_callback],
+                 callbacks=[tb_callback],
                  validation_data=(x_test,y_test), )

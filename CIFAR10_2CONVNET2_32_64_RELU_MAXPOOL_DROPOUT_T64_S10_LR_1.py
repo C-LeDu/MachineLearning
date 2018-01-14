@@ -11,7 +11,7 @@ import numpy as np
 import keras
 
 
-experiment_name="_CONVNET_2_32_64_3_MAXPOOL_2_2_DROPOUT_3_LR_2testsstt"
+experiment_name="_2CONVNET2_32_64_RELU_MAXPOOL_DROPOUT_T64_S10_LR_1"
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
@@ -27,39 +27,36 @@ y_test = keras.utils.to_categorical(y_test)
 print(x_train.shape)
 print(y_train.shape)
 
-tb_callback = TensorBoard("C:\\Users\jujuu\Documents\LogProjet\log" + experiment_name)
+tb_callback = TensorBoard("E:\\Documents\logs_deep_learning\CIFAR10" + experiment_name)
 
 model = Sequential()
-model.add(Conv2D(8,(3,3), padding='same', input_shape=(32,32,3)))
+model.add(Conv2D(32,(3,3), padding='same', input_shape=(32,32,3)))
 model.add(Activation('relu'))
-model.add(Conv2D(64,(3,3),padding='same'))
+model.add(Conv2D(32,(3,3),padding='same'))
 model.add(Activation('relu'))
 
 model.add(MaxPool2D(2,2))
 model.add(Dropout(0.20))
 
-#on ajoute input
-
+model.add(Conv2D(64,(3,3),padding='same',input_shape=(32,32,3)))
+model.add(Activation('relu'))
+model.add(Conv2D(64,(3,3),padding='same'))
+model.add(Activation('relu'))
 
 model.add(MaxPool2D(2,2))
 model.add(Dropout(0.10))
 
 model.add(Dense(64, activation='tanh'))
-model.add(Dense(64, activation='tanh'))
 
 model.add(Flatten())
 model.add(Dense(10,activation='sigmoid'))
 
-keras.optimizers.RMSprop(lr=0.001)
-
-
-model.compile(sgd(lr=1,),
+model.compile(sgd(lr=0.05),
               mse, metrics=[categorical_accuracy])
 
 model.fit(x_train, y_train,
-                 batch_size=1000,
+                 batch_size=2048,
                  epochs=2000,
                  verbose=1,
                  callbacks=[tb_callback],
                  validation_data=(x_test,y_test),)
-#ajouter une couche 64

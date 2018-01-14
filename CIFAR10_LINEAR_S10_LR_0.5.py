@@ -10,7 +10,7 @@ import numpy as np
 import keras
 
 
-experiment_name="_LINEAR_S10_LR_0.05"
+experiment_name="_LINEAR_S10_LR_0.5"
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 

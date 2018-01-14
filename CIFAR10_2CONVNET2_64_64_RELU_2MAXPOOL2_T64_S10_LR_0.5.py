@@ -5,12 +5,13 @@ from keras.activations import *
 from keras.losses import *
 from keras.datasets import *
 from keras.metrics import *
-#from keras.callbacks import *
+from keras.callbacks import *
+import theano
 import numpy as np
 import keras
 
 
-experiment_name="_CONVNET_3_32_64_32_RELU_3_MAXPOOL_3_2_DROPOUT_3_LR_0.05"
+experiment_name="_2CONVNET2_64_64_RELU_2MAXPOOL2_T64_S10_LR_0.5"
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
@@ -26,36 +27,41 @@ y_test = keras.utils.to_categorical(y_test)
 print(x_train.shape)
 print(y_train.shape)
 
-#tb_callback = TensorBoard("E:\\Documents\logs_deep_learning\CIFAR10" + experiment_name)
+tb_callback = TensorBoard("C:\\Users\jujuu\Documents\LogProjet\log" + experiment_name)
 
 model = Sequential()
-model.add(Conv2D(32,(3,3),padding='same',input_shape=(32,32,3)))
+model.add(Conv2D(8,(3,3), padding='same', input_shape=(32,32,3)))
 model.add(Activation('relu'))
-model.add(MaxPool2D((2,2)))
-model.add(Dropout(0.20))
+model.add(Conv2D(64,(3,3),padding='same'))
+model.add(Activation('relu'))
 
+model.add(MaxPool2D(2,2))
+
+
+#on ajoute input
 model.add(Conv2D(64,(3,3),padding='same',input_shape=(32,32,3)))
 model.add(Activation('relu'))
-model.add(MaxPool2D((2,2)))
-model.add(Dropout(0.10))
-
-model.add(Conv2D(32,(3,3),padding='same',input_shape=(32,32,3)))
+model.add(Conv2D(64,(3,3),padding='same'))
 model.add(Activation('relu'))
-model.add(MaxPool2D((2,2)))
-model.add(Dropout(0.20))
 
+model.add(MaxPool2D(2,2))
+
+
+
+model.add(Dense(64, activation='tanh'))
 
 model.add(Flatten())
-model.add(Dense(10, activation='sigmoid'))
+model.add(Dense(10,activation='sigmoid'))
 
 
-model.compile(sgd(lr=1,),
-                     mse, metrics=[categorical_accuracy])
 
+model.compile(sgd(lr=0.5),
+              mse, metrics=[categorical_accuracy])
 
 model.fit(x_train, y_train,
-                 batch_size=8192,
-                 epochs=10000,
+                 batch_size=1000,
+                 epochs=2000,
                  verbose=1,
-                 #callbacks=[tb_callback],
-                 validation_data=(x_test,y_test), )
+                 callbacks=[tb_callback],
+                 validation_data=(x_test,y_test),)
+#ajouter une couche 64

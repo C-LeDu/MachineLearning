@@ -11,7 +11,7 @@ import keras
 
 # /home/user/Documents/ESGI/Machine_Learning/Cifar-10/logs
 
-experiment_name = "CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1"
+experiment_name = "CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1"
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 

@@ -2,43 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39604af3-afb1-406f-99f3-72501393a3ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CIFAR10_LINEAR_1S32_S10_LR_0.5.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Conv_4_optimizer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Conv_4_v2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_1_16_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515094244.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515180051.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTMAX/events.out.tfevents.1515194396.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTMAX/events.out.tfevents.1515196586.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTPLUS/events.out.tfevents.1515193592.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTPLUS/events.out.tfevents.1515193742.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_16_MAXPOOL_1_2_LR_0.5_SOFTPLUS/events.out.tfevents.1515194357.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_DENSE_MAXPOL22_RELU_MAXPOOL_1_2_LR_1/events.out.tfevents.1515350625.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_2_DENSE_SOFTPLUS_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515199182.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_110_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515189542.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_16_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515188336.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515190655.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515190715.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515190950.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191002.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191082.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191162.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515191236.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515192388.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515192410.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515192429.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_4_64_32_MAXPOOL_1_2_LR_0.5/events.out.tfevents.1515198772.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_6_DENSE_2_RELU_MAXPOOL_3_LR_0.5/events.out.tfevents.1515345802.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_CONVNET_6_DENSE_2_RELU_MAXPOOL_3_LR_0.5/events.out.tfevents.1515346371.user-VirtualBox" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_LINEAR_1_16_LR_0.5/events.out.tfevents.1515094339.user-VirtualBox" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Conv_4.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET2_32_64_RELU_MAXPOOL_3_DROPOUT_1SP25_S10_LR_1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Conv_6.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET2_16_32_RELU_MAXPOOL_3_DROPOUT_S10_LR_1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Conv_Softplus.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/linear_Cifar10.py" afterPath="$PROJECT_DIR$/CIFAR10_LINEAR_1S16_S10_LR_0.5.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SP10_LR_1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled1-checkpoint.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Projet CIFAR10 Deep Learning(1).docx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1/events.out.tfevents.1515094244.user-VirtualBox" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Untitled1.ipynb" afterPath="$PROJECT_DIR$/Untitled1.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,18 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_RELU_MAXPOOL_3_DROPOUT_SM10_LR_1.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -795,7 +750,7 @@
     <entry file="file://$PROJECT_DIR$/CIFAR10_2CONVNET1_16_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -826,9 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-418">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>

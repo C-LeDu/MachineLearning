@@ -12,7 +12,7 @@ import keras
 
 # /home/user/Documents/ESGI/Machine_Learning/Cifar-10/logs
 
-experiment_name = "CIFAR10_1CONVNET1_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_0.5X"
+experiment_name = "CIFAR10_CONVNET_16_SIGMOID_MAXPOOL_3_DROPOUT_S10_LR_1"
 
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
@@ -31,15 +31,13 @@ tb_callback = keras.callbacks.TensorBoard(log_dir='./logs/'+experiment_name, his
 conv_model = Sequential()
 conv_model.add(Conv2D(16, (3, 3), padding='same', input_shape=(32, 32, 3)))
 conv_model.add(Activation('sigmoid'))
-conv_model.add(Conv2D(16, (3, 3)))
-conv_model.add(Activation('sigmoid'))
 conv_model.add(MaxPool2D((3, 3)))
 conv_model.add(Dropout(0.20))
 conv_model.add(Flatten())
 
 conv_model.add(Dense(10, activation='sigmoid'))
 
-conv_model.compile(sgd(lr=1, ), mse, metrics=[categorical_accuracy]) # LR=0.01
+conv_model.compile(sgd(lr=1, ), mse, metrics=[categorical_accuracy]) 
 
 conv_model.fit(x_train, y_train, batch_size=8000, epochs=2000, verbose=1, callbacks=[tb_callback], validation_data=(x_test, y_test), )
 
